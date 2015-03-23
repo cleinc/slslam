@@ -64,7 +64,8 @@ CPlot::CPlot() {
   }
 
   glfwMakeContextCurrent(window);
-  glfwSetWindowPos(window, 1200, 400);
+  // glfwSetWindowPos(window, 1200, 400);
+  glfwSetWindowPos(window, 0, 0);
 
   glViewport(0, 0, gl_win_width, gl_win_height);
   glMatrixMode( GL_PROJECTION);
@@ -327,7 +328,8 @@ void CPlot::drawObservation(
     cv::imshow( "Observations", image );
     static bool is_first = true;
     if(is_first == true) {
-      cv::moveWindow("Observations", 1200, 900);
+      // cv::moveWindow("Observations", 1200, 900);
+      cv::moveWindow("Observations", 0, 560);
       is_first = false;
     }
 //    printf("%s: %g %g %g %g %g %g %g %g\n", tid, p1.x, p1.y, p2.x, p2.y, p3.x,
