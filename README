@@ -1,4 +1,5 @@
-# slslam
+*** SLSLAM ***
+
 This implementation performs Stereo Line-based SLAM (SLSLAM) of our work:
 "Building a 3D Line-based Map Using a Stereo SLAM," currently in a revision
 process of IEEE Transactions on Robotics.
