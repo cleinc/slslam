@@ -70,7 +70,6 @@ find_path(GFLAGS_INCLUDE NAMES gflags/gflags.h PATHS ${SEARCH_HEADERS})
 
 find_path(EIGEN_INCLUDE NAMES Eigen/Core PATHS ${SEARCH_HEADERS})
 
-
 set(GOOGLE_LIBRARIES ${GFLAGS_LIB} ${GLOG_LIB})
 
 include_directories(${sl_slam_SOURCE_DIR}/src)
