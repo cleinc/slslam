@@ -1,7 +1,7 @@
 *** SLSLAM ***
 
 This implementation performs Stereo Line-based SLAM (SLSLAM) of our work:
-"Building a 3D Line-based Map Using a Stereo SLAM," currently in a revision
+"Building a 3D Line-based Map Using a Stereo SLAM," in a revision
 process of IEEE Transactions on Robotics.
 
 Dependencies: Ceres-solver 1.7.0, OpenCV 2.4.10, Google Flags 2.1.0, Google
@@ -22,3 +22,7 @@ $ unzip data.zip
 $ mkdir build && cd build
 $ cmake ..
 $ make
+
+**Currently, line detection, tracking, and loop closure detection moudles are
+not included due to license problem with a project supported by Korean
+government.
