@@ -1,0 +1,4 @@
+Average number of iterations = 5.22637
+Total time = 43.5418
+Average initial costs = 0.0132691
+Average final costs = 0.0131422
