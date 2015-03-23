@@ -15,14 +15,23 @@ This code has been tested only on 64-bit linux (Ubuntu 14.04) system.
 First download the code:
 $ git clone https://github.com/slslam/slslam.git
 
+Make a directory for datasets
+$ mkdir data 
+
 Then download a zipped dataset file from:
 https://drive.google.com/file/d/0B3bB8rHbc3fWNGQ3YnhLczIwNG8/view?usp=sharing
-and copy it to ${source_root_dir}.
+and copy it to ${source_root_dir}/data.
 
+$ cd data
 $ unzip data.zip
+$ cd ..
 $ mkdir build && cd build
 $ cmake ..
 $ make
+
+$ slslam_it3f
+$ slslam_olympic4f
+$ slslam_myungdong
 
 * Currently, line detection, tracking, and loop closure detection moudles are
 not included due to license problem with a project supported by Korean
