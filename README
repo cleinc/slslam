@@ -14,6 +14,7 @@ This code has been tested only on 64-bit linux (Ubuntu 14.04) system.
 
 First download the code:
 $ git clone https://github.com/slslam/slslam.git
+$ cd slslam
 
 Make a directory for datasets
 $ mkdir data 
