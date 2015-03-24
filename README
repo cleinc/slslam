@@ -34,6 +34,6 @@ $ slslam_it3f
 $ slslam_olympic4f
 $ slslam_myungdong
 
-* Currently, line detection, tracking, and loop closure detection moudles are
+* Currently, line detection, tracking, and loop closure detection modules are
 not included due to license problem with a project supported by Korean
 government.
