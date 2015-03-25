@@ -10,7 +10,7 @@ Logging 0.0.0, OpenGL, GLFW
 
 All dependencies should be installed in your system beforehand.
 
-This code has been tested only on 64-bit linux (Ubuntu 14.04) system.
+This code has been tested only on 64-bit linux (Ubuntu 12.04 and 14.04) systems.
 
 First download the code:
 $ git clone https://github.com/slslam/slslam.git
@@ -30,9 +30,9 @@ $ mkdir build && cd build
 $ cmake ..
 $ make
 
-$ slslam_it3f
-$ slslam_olympic4f
-$ slslam_myungdong
+$ ./slslam_it3f
+$ ./slslam_olympic4f
+$ ./slslam_myungdong
 
 * Currently, line detection, tracking, and loop closure detection modules are
 not included due to license problem with a project supported by Korean
