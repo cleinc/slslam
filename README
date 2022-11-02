@@ -1,12 +1,11 @@
 *** SLSLAM ***
-Guoxuan Zhang, Jin Han Lee, Jongwoo Lim, Il Hong Suh
+* Guoxuan Zhang, * Jin Han Lee, Jongwoo Lim, Il Hong Suh
+* Equal contribution
 
 This code implements a Stereo Line-based SLAM (SLSLAM) presented in
-"Building a 3D Line-based Map Using a Stereo SLAM," in a revision
-process of IEEE Transactions on Robotics.
+"Building a 3D Line-based Map Using a Stereo SLAM," IEEE Transactions on Robotics.
 
-Dependencies: Ceres-solver 1.7.0, OpenCV 2.4.10, Google Flags 2.1.0, Google
-Logging 0.0.0, OpenGL, GLFW
+Dependencies: Ceres-solver 1.7.0, OpenCV 2.4.10, Google Flags 2.1.0, Google Logging 0.0.0, OpenGL, GLFW
 
 All dependencies should be installed in your system beforehand.
 
